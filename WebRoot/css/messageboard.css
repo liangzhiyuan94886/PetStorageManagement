@@ -1,0 +1,52 @@
+@CHARSET "utf-8";
+body{
+	background-image: url(../images/adminlogin.jpg)
+	}
+a,a:hover{
+	text-decoration: none;
+	color: red;
+}
+.top-div{
+	height: 80px;
+	background-color: #006BC8;
+	margin-top: -8px;
+}
+.a1{
+	float: left;
+	color: white;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+.a2{
+	color: white;
+	margin-left: 40px;
+}
+.label1{
+	float: left;
+	color: white;
+	margin-left: 400px;
+	font-size: 30px;
+}
+.label2{
+	float: right;
+	color: white;
+	margin-right: 100px;
+	margin-top: 30px;
+}
+table{
+	margin: 15px auto;
+}
+.textview{
+	width: 1000px;
+	height: 100px;
+	resize: none;
+	font-size: 17px;
+}
+.label4{
+	float: right;
+	font-size: 13px;
+}
+.img-delete{
+	width: 40px;
+	height: 40px;
+}

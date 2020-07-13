@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserRegistServlet</servlet-name>
+    <servlet-class>com.Servlet.UserRegistServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserLoginServlet</servlet-name>
+    <servlet-class>com.Servlet.UserLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <servlet-class>com.Servlet.AdminLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryUserInfoServlet</servlet-name>
+    <servlet-class>com.Servlet.QueryUserInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateUserInfoServlet</servlet-name>
+    <servlet-class>com.Servlet.UpdateUserInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdatePasswordServlet</servlet-name>
+    <servlet-class>com.Servlet.UpdatePasswordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryPetInfoServlet</servlet-name>
+    <servlet-class>com.Servlet.QueryPetInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddPetInfoServlet</servlet-name>
+    <servlet-class>com.Servlet.AddPetInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryPetInfoByIdServlet</servlet-name>
+    <servlet-class>com.Servlet.QueryPetInfoByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdatePetInfoServlet</servlet-name>
+    <servlet-class>com.Servlet.UpdatePetInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeletePetInfoServlet</servlet-name>
+    <servlet-class>com.Servlet.DeletePetInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryPetInfoByLikeServlet</servlet-name>
+    <servlet-class>com.Servlet.QueryPetInfoByLikeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddFeederInfoServlet</servlet-name>
+    <servlet-class>com.Servlet.AddFeederInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryFeederInfoServlet</servlet-name>
+    <servlet-class>com.Servlet.QueryFeederInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryPetDetailInfoServlet</servlet-name>
+    <servlet-class>com.Servlet.QueryPetDetailInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryTotalRevenueServlet</servlet-name>
+    <servlet-class>com.Servlet.QueryTotalRevenueServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddPetInformationServlet</servlet-name>
+    <servlet-class>com.Servlet.AddPetInformationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryPetInformationServlet</servlet-name>
+    <servlet-class>com.Servlet.QueryPetInformationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeletePetInformationServlet</servlet-name>
+    <servlet-class>com.Servlet.DeletePetInformationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryPetInformationByIdServlet</servlet-name>
+    <servlet-class>com.Servlet.QueryPetInformationByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdatePetInformationServlet</servlet-name>
+    <servlet-class>com.Servlet.UpdatePetInformationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CompleteOrderServlet</servlet-name>
+    <servlet-class>com.Servlet.CompleteOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryCompletedOrderServlet</servlet-name>
+    <servlet-class>com.Servlet.QueryCompletedOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateFeederInfoServlet</servlet-name>
+    <servlet-class>com.Servlet.UpdateFeederInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryFeederInfoByIdServlet</servlet-name>
+    <servlet-class>com.Servlet.QueryFeederInfoByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteFeederInfoServlet</servlet-name>
+    <servlet-class>com.Servlet.DeleteFeederInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryTotalRevenueByDateServlet</servlet-name>
+    <servlet-class>com.Servlet.QueryTotalRevenueByDateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryAdminInfoServlet</servlet-name>
+    <servlet-class>com.Servlet.QueryAdminInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateMyPasswordServlet</servlet-name>
+    <servlet-class>com.Servlet.UpdateMyPasswordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryMyInfoServlet</servlet-name>
+    <servlet-class>com.Servlet.QueryMyInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateMyInfoServlet</servlet-name>
+    <servlet-class>com.Servlet.UpdateMyInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryAccountInfoServlet</servlet-name>
+    <servlet-class>com.Servlet.QueryAccountInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteAdminInfoServlet</servlet-name>
+    <servlet-class>com.Servlet.DeleteAdminInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddAccountServlet</servlet-name>
+    <servlet-class>com.Servlet.AddAccountServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryAccountInfoByIdServlet</servlet-name>
+    <servlet-class>com.Servlet.QueryAccountInfoByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateAccountInfoServlet</servlet-name>
+    <servlet-class>com.Servlet.UpdateAccountInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddMessageServlet</servlet-name>
+    <servlet-class>com.Servlet.AddMessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryAllMessageServlet</servlet-name>
+    <servlet-class>com.Servlet.QueryAllMessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteMessageServlet</servlet-name>
+    <servlet-class>com.Servlet.DeleteMessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddBespokeServlet</servlet-name>
+    <servlet-class>com.Servlet.AddBespokeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryBespokeServlet</servlet-name>
+    <servlet-class>com.Servlet.QueryBespokeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryBespokeByIdServlet</servlet-name>
+    <servlet-class>com.Servlet.QueryBespokeByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddPetInfoByYuYueServlet</servlet-name>
+    <servlet-class>com.Servlet.AddPetInfoByYuYueServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteBespokeByIdServlet</servlet-name>
+    <servlet-class>com.Servlet.DeleteBespokeByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryShowMessageServlet</servlet-name>
+    <servlet-class>com.Servlet.QueryShowMessageServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserRegistServlet</servlet-name>
+    <url-pattern>/UserRegistServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserLoginServlet</servlet-name>
+    <url-pattern>/UserLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <url-pattern>/AdminLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryUserInfoServlet</servlet-name>
+    <url-pattern>/QueryUserInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateUserInfoServlet</servlet-name>
+    <url-pattern>/UpdateUserInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatePasswordServlet</servlet-name>
+    <url-pattern>/UpdatePasswordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryPetInfoServlet</servlet-name>
+    <url-pattern>/QueryPetInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddPetInfoServlet</servlet-name>
+    <url-pattern>/AddPetInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryPetInfoByIdServlet</servlet-name>
+    <url-pattern>/QueryPetInfoByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatePetInfoServlet</servlet-name>
+    <url-pattern>/UpdatePetInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeletePetInfoServlet</servlet-name>
+    <url-pattern>/DeletePetInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryPetInfoByLikeServlet</servlet-name>
+    <url-pattern>/QueryPetInfoByLikeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddFeederInfoServlet</servlet-name>
+    <url-pattern>/AddFeederInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryFeederInfoServlet</servlet-name>
+    <url-pattern>/QueryFeederInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryPetDetailInfoServlet</servlet-name>
+    <url-pattern>/QueryPetDetailInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryTotalRevenueServlet</servlet-name>
+    <url-pattern>/QueryTotalRevenueServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddPetInformationServlet</servlet-name>
+    <url-pattern>/AddPetInformationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryPetInformationServlet</servlet-name>
+    <url-pattern>/QueryPetInformationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeletePetInformationServlet</servlet-name>
+    <url-pattern>/DeletePetInformationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryPetInformationByIdServlet</servlet-name>
+    <url-pattern>/QueryPetInformationByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatePetInformationServlet</servlet-name>
+    <url-pattern>/UpdatePetInformationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CompleteOrderServlet</servlet-name>
+    <url-pattern>/CompleteOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryCompletedOrderServlet</servlet-name>
+    <url-pattern>/QueryCompletedOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateFeederInfoServlet</servlet-name>
+    <url-pattern>/UpdateFeederInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryFeederInfoByIdServlet</servlet-name>
+    <url-pattern>/QueryFeederInfoByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteFeederInfoServlet</servlet-name>
+    <url-pattern>/DeleteFeederInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryTotalRevenueByDateServlet</servlet-name>
+    <url-pattern>/QueryTotalRevenueByDateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryAdminInfoServlet</servlet-name>
+    <url-pattern>/QueryAdminInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateMyPasswordServlet</servlet-name>
+    <url-pattern>/UpdateMyPasswordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryMyInfoServlet</servlet-name>
+    <url-pattern>/QueryMyInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateMyInfoServlet</servlet-name>
+    <url-pattern>/UpdateMyInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryAccountInfoServlet</servlet-name>
+    <url-pattern>/QueryAccountInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteAdminInfoServlet</servlet-name>
+    <url-pattern>/DeleteAdminInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddAccountServlet</servlet-name>
+    <url-pattern>/AddAccountServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryAccountInfoByIdServlet</servlet-name>
+    <url-pattern>/QueryAccountInfoByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateAccountInfoServlet</servlet-name>
+    <url-pattern>/UpdateAccountInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddMessageServlet</servlet-name>
+    <url-pattern>/AddMessageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryAllMessageServlet</servlet-name>
+    <url-pattern>/QueryAllMessageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteMessageServlet</servlet-name>
+    <url-pattern>/DeleteMessageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddBespokeServlet</servlet-name>
+    <url-pattern>/AddBespokeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryBespokeServlet</servlet-name>
+    <url-pattern>/QueryBespokeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryBespokeByIdServlet</servlet-name>
+    <url-pattern>/QueryBespokeByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddPetInfoByYuYueServlet</servlet-name>
+    <url-pattern>/AddPetInfoByYuYueServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteBespokeByIdServlet</servlet-name>
+    <url-pattern>/DeleteBespokeByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryShowMessageServlet</servlet-name>
+    <url-pattern>/QueryShowMessageServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>

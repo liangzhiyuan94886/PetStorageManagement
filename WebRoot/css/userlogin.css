@@ -1,0 +1,59 @@
+@CHARSET "utf-8";
+#form_div{
+	width: 340px;
+	height: 375px;
+	position: absolute;
+	right: 180px;
+	top: 140px;
+	background-color: white;
+}
+#input-text{
+	width: 280px;
+	height: 38px;
+	position: absolute;
+	top: 70px;
+	left: 30px;
+}
+#input-password{
+	width: 280px;
+	height: 38px;
+	position: absolute;
+	top: 130px;
+	left: 30px;
+}
+#input-button {
+	width: 280px;
+	height: 38px;
+	position: absolute;
+	top: 250px;
+	left: 30px;
+	background-color: #ff3c3c;
+	font-size: 20px;
+	border: 0px;
+	color:white;
+}
+#zc{
+	position: absolute;
+	top:195px;
+	left:30px;
+	color:FF0033;
+}
+.admin-login{
+	position: absolute;
+	top:320px;
+	left:30px;
+	color:black;
+}
+#zh{
+	position: absolute;
+	top:195px;
+	right:30px;
+	color:gray;
+}
+a{
+	text-decoration: none;
+}
+/* ------------------------------- */
+body{
+	background-image: url(../images/userlogin.jpg)
+}

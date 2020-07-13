@@ -1,0 +1,39 @@
+@CHARSET "utf-8";
+body{
+	background-image: url(../images/adminlogin.jpg);
+}
+.admindiv{
+	font-size: 35px;
+	color: #54A147;
+	padding-top: 50px;
+	margin-left: 200px;
+}
+#form_div{
+	width: 340px;
+	height: 350px;
+	margin-top: 30px;
+	margin-left:200px;
+	background-color: white;
+}
+#input-text{
+	width: 280px;
+	height: 38px;
+	margin-left: 30px;
+	margin-top: 50px;
+}
+#input-password{
+	width: 280px;
+	height: 38px;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+#input-button {
+	width: 280px;
+	height: 38px;
+	margin-left: 30px;
+	margin-top: 50px;
+	background-color: #54A147;
+	font-size: 20px;
+	border: 0px;
+	color:white;
+}

@@ -1,0 +1,93 @@
+@CHARSET "utf-8";
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: #54A147;
+}
+.title{
+	color: #54A147;
+	font-size: 40px;
+	margin-left: 60px;
+	margin-top: 25px;
+	text-shadow: 1px 1px 1px;
+}
+.return{
+	float: right;
+	margin-right: 60px;
+}
+hr{
+	color:#54A147;
+	width: 1100px;
+	float: left;
+}
+.column{
+	margin-top: 10px;
+	float: left;
+}
+.back{
+	font-size: 20px;
+	color: #54A147;
+}
+.span{
+	font-size: 18px;
+}
+/* 下部分------------- */
+.input1{
+	width: 250px;
+	height: 35px;
+}
+tr{
+	height: 50px;
+}
+.add-tb{
+	margin: 10px auto;
+}
+.input2{
+	width: 200px;
+	height: 38px;
+	background-color: #54A147;
+	font-size: 20px;
+	border: 0px;
+	color:white;
+	border-radius: 6px;
+	margin-left: 25px;
+}
+.img-div{
+	width: 220px;
+	height: 250px;
+	float: left;
+	margin-left: 150px;
+	margin-top: -400px;
+}
+.img1{
+	width: 80px;
+	height: 80px;
+}
+.img2{
+	width: 150px;
+	height: 150px;
+}
+.file-input{
+	opacity: 0;
+	margin-top: 30px;
+}
+.upload{
+	border: 1px #99D3F5 solid;
+	background-color: #D0EEFF;
+	margin-top: -30px;
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+.a-img{
+	color: #1E88C7;
+}
+.text-input{
+	height: 32px;
+	width: 120px;
+	margin-top: -31px;
+	margin-left: 90px;
+	border: 1px #99D3F5 solid;
+}

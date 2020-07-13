@@ -1,0 +1,62 @@
+@CHARSET "utf-8";
+a{
+	text-decoration: none;
+}
+.title{
+	color: #54A147;
+	font-size: 40px;
+	margin-left: 60px;
+	margin-top: 25px;
+	text-shadow: 1px 1px 1px;
+}
+.return{
+	float: right;
+	margin-right: 60px;
+}
+hr{
+	color:#54A147;
+	width: 1100px;
+	float: left;
+}
+.column{
+	margin-top: 10px;
+	float: left;
+}
+.back{
+	font-size: 20px;
+	color: #54A147;
+}
+.span{
+	font-size: 18px;
+}
+.adddiv{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background-color: #10C55B;
+	text-align: center;
+	line-height: 100px;
+	float: left;
+	margin-top: 30px;
+	margin-left:50px;
+	font-size: 25px;
+}
+.tianjia{
+	color: white;
+}
+.table{
+	border-collapse: collapse;
+	margin: 30px auto;
+}
+.tr1{
+	color: white;
+	background-color: #10C55B;
+	width: 100px;
+	height: 40px;
+}
+td{
+	width: 100px;
+	height: 40px;
+	border-bottom: 1px black solid;
+	text-align: center;
+}

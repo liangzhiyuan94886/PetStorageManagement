@@ -1,0 +1,99 @@
+@CHARSET "utf-8";
+.title{
+	color: #FF9000;
+	font-size: 40px;
+	position: absolute;
+	top: 25px;
+	left: 60px;
+	text-shadow: 1px 1px 1px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: #FF9000;
+}
+.return{
+	position: absolute;
+	top: 85px;
+	right: 60px;
+}
+.column{
+	margin-top: 90px;
+	float: left;
+	font-size: 20px;
+}
+.back{
+	color: #FF9000;
+}
+hr{
+	color:#FF9000;
+	margin-top: 105px;
+	width: 1100px;
+	float: left;
+}
+.tb{
+	margin: 100px auto;
+	font-size: 20px;
+	text-align: left;
+}
+tr{
+	height: 50px;
+}
+.select{
+	width: 122px;
+	height: 35px;
+}
+.pet{
+	width: 122px;
+	height: 35px;
+}
+.input1{
+	width: 250px;
+	height: 35px;
+}
+.input2{
+	width: 250px;
+	height: 38px;
+	margin-left: 550px;
+	margin-top: -80px;
+	background-color: #FF9000;
+	font-size: 20px;
+	border: 0px;
+	color:white;
+}
+/* 上传图片区域--------- */
+.img-div{
+	width: 220px;
+	height: 250px;
+	float: right;
+	margin-right: 150px;
+	margin-top: -400px;
+}
+.img2{
+	width: 150px;
+	height: 150px;
+}
+.file-input{
+	opacity: 0;
+	margin-top: 30px;
+}
+.upload{
+	border: 1px #99D3F5 solid;
+	background-color: #D0EEFF;
+	margin-top: -30px;
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+.a-img{
+	color: #1E88C7;
+}
+.text-input{
+	height: 32px;
+	width: 120px;
+	margin-top: -31px;
+	margin-left: 90px;
+	border: 1px #99D3F5 solid;
+}
